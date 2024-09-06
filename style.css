@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Ramabhadra&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Public/Netflix-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 140px;
+    background: linear-gradient(to top,rgba(0,0,0,0.0),rgba(0,0,0,0.9));
+}
+#logo-img{
+    height: 54px;
+}
+
+#lang-icon{
+    height: 20px;
+}
+
+#sign-buttons{
+    display: flex;
+    width: 250px;
+    position: relative;
+    
+}
+
+#drop-down-menu{
+    border: 1.5px solid rgb(78, 78, 78);
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width:120px;
+    outline: none;
+}
+
+.options{
+    background-color: white;
+    color: black;
+}
+
+#lang-icon{
+    background-color: black;    
+    border-style: none;  
+    width: 15px; 
+    height: 13px;
+    position: relative;
+    top:7px;
+    right: 1px;    
+}
+
+#register-button{
+    position: absolute;
+    right: 29px;
+    top:10px
+}
+
+#Reg-button{
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 14px;
+}
+
+#Lang{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 30px;
+    font-weight: 500;
+    border-style: none;
+    background-color: black;
+    color:white;
+    font-size: 17px;
+}
+
+#drop-down-menu:focus-within {
+    border: 2px solid white;
+}
+
+#drop-down-menu select:focus-visible {
+    outline: none;
+}
+
+#mid-section{
+    font-family: "Bakbak One", sans-serif;
+    font-weight:800;
+    color: white;
+    font-size: 40px;
+    max-width: 570px;
+    text-align: center;
+    position: relative;
+    bottom: 29px;
+    line-height: 1.2;
+}
+
+#outer-mid-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 148px;
+}
+
+#lower-section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+sup{
+    font-family: Arial, sans-serif;
+    vertical-align: super;
+    font-size: 20px;
+}
+
+#mid-section p{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#email-input{
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    width:372px;
+    padding: 1.2rem;
+    background-color: rgba(24, 24, 24, 0.7);
+    border: 1px solid rgb(92, 91, 91);
+    border-radius: 5px;
+    position: relative;
+    right: 69px;
+    top: 12px;
+}
+
+
+#email-input::placeholder{
+    font-size: 16px;
+    color: rgb(188, 188, 188);
+    font-weight: 600;
+}
+
+#footer-section{
+    display: block;
+    
+    width: 50vw;
+}
+
+#GS-button{
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(211, 0, 0);
+    border: none;
+    height: 57px;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    width: 207px;
+    position: relative;
+    right: 72px;
+    top: 16px;
+}
+
+#GS-button img{
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+
+#Reg-button:hover, #GS-button:hover{
+    background-color: rgb(212, 0, 0);
+    cursor: pointer;
+}
